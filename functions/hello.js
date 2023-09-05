@@ -5,5 +5,5 @@ export default function handler(request, response) {
       message: "Hello from the serverless function!",
       name,
     });
-  }, 10000);
+  }, 100);
 }
